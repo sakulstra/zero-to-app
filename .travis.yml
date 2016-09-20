@@ -1,0 +1,17 @@
+language: node_js
+
+git:
+  depth: 3
+
+node_js:
+  - "6"
+# use caching with shrinkwrap to speed up build
+# cache:
+#   directories:
+#     - node_modules
+install:
+  - npm install
+
+script:
+  - npm run test
+

@@ -1,0 +1,17 @@
+{
+  "name": "zero-to-app",
+  "author": "Lukas Strassel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "babel --presets react ./src --out-dir ./build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-react": "^6.11.1"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
